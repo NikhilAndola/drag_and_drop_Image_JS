@@ -1,0 +1,36 @@
+body{
+    background: darkslateblue;
+}
+
+.imgBox{
+    background-image: url('../Images/sakuna.jpeg');
+    /* border-radius: 50%; */
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+} 
+
+.whiteBox{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background-color: white;
+    border: 2px black solid;
+}
+ 
+.hold{
+    border: 2px red solid;
+}
+
+.hide{
+    display: none;
+}
+
+.dashed{
+    background: rgb(184, 178, 178); 
+    border-style: dashed;
+}
